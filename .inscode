@@ -1,4 +1,4 @@
-run = "mvn spring-boot:run"
+run = "mvn install && java -jar ruoyi-admin/target/ruoyi-admin.jar"
 language = "java"
 
 [debugger]
